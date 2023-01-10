@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Digital Portfolio - Vardaan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Added Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vardaan Vishnu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Coursework</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Vardaan</h2>
+                <p class="hero_desc">I am a Final-Year CSE Undergrad from VIT Bhopal University</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> My name is Vardaan. I am currently enrolled in VIT Bhopal University as a final-year student, pursuing Computer Science Engineering. I undertook this domain out of my curiousity and interest in computers and how they function. Over the years at my university, I have had the privelege to study and explore various fields like Computer Vision, Data Analytics, Web-Dev etc.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Vardaan Vishnu</li>
+                                <li>Age: 21</li>
+                                <li>Occupation: Upcoming intern @ PwC India</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> I have been part of various team projects, wherein  we focused on solving real-world problems. Apart from academics, I was a Core-Member of Meraki, the Fine-Arts club of my university, and had organised various cultural events too. I was also a Tech-Columnist for The Frontier Vedette. In my free-time, I love to watch movies and read books.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Coursework Undertaken</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">C/C++</h4>
+                            <p class="card-text mt-3">Studied 'Fundamentals of Programming &amp; C' under Prof. Manikandan K. during Fall-Semester 2019-20 and 'Programming in C++' under Dr. Pon Harshavardhanan during Winter-Semester 2019-20. The courses focused on introducing us to programming concepts.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Operating Systems</h4>
+                            <p class="card-text mt-3">Studied 'Operating Systems' under Dr. Ashwin M. during Winter-Semester 2020-21. The course focused on introducing students to OS fundamentals, Processes, Threads, Scheduling, Deadlocks etc.   
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Computer Networks</h4>
+                            <p class="card-text mt-3">Studied 'Computer Networks' under Dr. Gaurav Soni during Winter-Semester 2021-22. The course focused on networking terminologies, devices, topologies and OSI model of networking.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Internet &amp; Web Programming</h4>
+                            <p class="card-text mt-3">Studied 'Internet &amp; Web Programming' under Dr. J. Subash Chandra Bose during Winter-Semester 2021-22. The course focused on introducing us to concepts of Internet and basics of HTML and CSS.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Fundamentals of Data Science</h4>
+                            <p class="card-text mt-3">Studied 'Fundamentals of Data Science' under Dr. Lakshmi during Fall-Semester 2021-22. The course focused on introducing us to concepts of R Programming and introduction to Data Science field.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Software Engineering</h4>
+                            <p class="card-text mt-3">Studied 'Software Engineering' under Dr. Priyanka during Winter-Semester 2020-21. The course focused on introducing students to concepts of SDLC and development workflows.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Project Work</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioanon.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Anon Web</h4>
+                            <p class="card-text">It aims to facilitate WhatsApp Messaging to unknown contacts on WhatsApp Web.</p>
+                            <div class="text-center">
+                                <a href="#anon" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfoliodoori.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Doori</h4>
+                            <p class="card-text">It is a Social Distancing Tracker, made for Crowd Management during Covid-19 pandemic.</p>
+                            <div class="text-center">
+                                <a href="#doori" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioflight.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Real-Time Flight Data Visualisation</h4>
+                            <p class="card-text">R-app that visualises flight data of Air-France Airlines in real-time.</p>
+                            <div class="text-center">
+                                <a href="#flight" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfoliofaceoff.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Faceoff</h4>
+                            <p class="card-text">It is a Face Detection Model that was built using OpenCV and Streamlit.</p>
+                            <div class="text-center">
+                                <a href="#faceoff" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfoliosentiment.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Sentiment Analysis</h4>
+                            <p class="card-text">Sentiment Analysis of the EMMA novel by Jane Austen using R and Natural Language Processing.</p>
+                            <div class="text-center">
+                                <a href="#sentiment" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfoliotcs.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Drug Data Analysis | TCS iON</h4>
+                            <p class="card-text">TCS iON internship - Analysis and modelling of classifiers to detect the side effects of a Drug.</p>
+                            <div class="text-center">
+                                <a href="#drug" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about ANON section-->
+    <section id="anon">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Anon Web</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/portfolioanon.png" class= "imageAboutPage" alt="anon_img">
+                    <div class="row-sm-4 mt-4 offset-4">
+                        <a target= "_blank" href="https://vardaan11.github.io/anon/" class="btn btn-success">Live</a>
+                        <a target= "_blank" href="https://github.com/vardaan11/anon" class="btn btn-success">Github</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Anon Web aims to be a kind of app that will
+facilitate WhatsApp Messaging and WhatsApp
+Calling without having to save the recipients
+contact information. This idea originates from
+people’s need for quick messaging to unknown
+contacts, on the go!
+The app makes work through using public
+WhatsApp API links available, that can be modified to contact any number that
+is registered as an active user on the platform.
+
+
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-10">
+                            <ol>
+                                <li>Type the number country code of the contact whom you want to chat with,through WhatsApp Web.</li>
+                                <li>Type the contact number you want to chat/call through WhatsApp Web.</li>
+                                <li>WhatsApp public API is called in the application.</li>
+                                <li>Server systems do the backend message routing.</li>
+                                <li>You are then redirected to your chat with that person.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> It has a variety of use-cases like, we students can send any assignment or tutorial
+related work to anyone without saving the number as our app is meant for these
+purposes only. When WhatsApp will start digital transfer of money, then we can
+transfer money without saving the contact info, for faster transactions.
+Though, it comes with its own shortcomings like, people might misuse it for
+spamming unknown contacts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about Doori section-->
+    <section id="doori">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Doori</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/portfoliodoori.png" class= "imageAboutPage" alt="doori_img">
+                    <div class="row-sm-4 mt-4 offset-5">
+                        <a target= "_blank" href="https://github.com/vardaan11/doori" class="btn btn-success">Github</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <p> In 2020-21, when the Covid-19 situation was at its peak, it was very important to maintain social distancing in public places. The safety measures taken by the governments around the world had failed in front of the deadly second wave of Covid-19, due to lack of social distancing practice. Newer variants of the virus had and keep on emerging, that are equivalent or more dangerous than the previous one. Thus, it becomes a monumental challenge to tackle the issue of social distancing in an overly populated country like India. Hence, me and my team, under the guidance of our guide Dr. Abha Trivedi came forward with our project, Doori, a social distancing tracker, based on Computer Vision. Our project’s main objective is to help authorities implement social-distancing in public places &amp; offices.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-10">
+                            <ol>
+                                <li>Get the input video/frame.</li>
+                                <li>Apply Human Detection to detect all the people in the given image/frame.</li>
+                                <li>Create bounding boxes for these detections.</li>
+                                <li>Get the centroid of the boxes.</li>
+                                <li>Compute the pairwise distances between centroids of all detected people.</li>
+                                <li>Based on these distances, check to see if any two people are less than threshold (N) pixels apart.</li>
+                                <li>Loop the entire process for all consequent frames.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Thus, we can conclude here that Doori Social distancing tracker is functional and
+can detect objects with 72% confidence score. It uses OpenCV, DNN and the
+application modules can also be used for various thresholds. We hope that Doori
+helps the world and reaches out to more and more people/organizations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about flight section-->
+    <section id="flight">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Real-Time Flight Data Visualization</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/portfolioflight.png" class= "imageAboutPage" alt="flight_img">
+                    <div class="row-sm-4 mt-4 offset-4">
+                        <a target= "_blank" href="https://vardaan11.shinyapps.io/R_france_app-master/" class="btn btn-success">Live</a>
+                        <a target= "_blank" href="https://github.com/vardaan11/Flight-Data-Visualisation" class="btn btn-success">Github</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <p>This project is mainly a fully functional and user-friendly web application, that uses web
+scrapping to get live data of Air France flights. The flights are plotted on a reactive
+map with a color distinction according to their provenance/destination. The
+concerned airports are also plotted and differentiated by size according to
+frequentation.
+The live flights data are taken from flightaware.com. Once the airline url
+obtained, the data is displayed in a table but limited to 20 rows per page. From
+the scrapped Data, some modifications where needed in order to plot what I
+intended to do.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-10">
+                            <ol>
+                                <li>Create web-scrapping script for getting flight data from internet.</li>
+                                <li>Clean data and make a proper dataframe.</li>
+                                <li>Use Plotly and Mapbox libraries for making the visualization dashboard.</li>
+                                <li>Make use of Shiny library to create a WebApp for the R-Script.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> The map is in fact a Mapbox, using Plotly. The main idea is to superimpose the
+various information layers, that is the map, the airports markers, and the flights
+segments. All that toying with available parameters to obtain a pleasant design.
+Every R script can be turn into a web app using shiny. Now you do not
+necessarily have to structure your app in several files. However, the R code must
+be separated in a UI and Server part. Concerning hosting environment there is a
+possibility to use shiny provided services, or to dockerize the app and deploy it
+elsewhere. I have done using the Shinyapps.io platform.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about Faceoff section-->
+    <section id="faceoff">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">FaceOff</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/portfoliofaceoff.png" class= "imageAboutPage" alt="faceoff_img">
+                    <div class="row-sm-4 mt-4 offset-4">
+                        <a target= "_blank" href="https://faceoff-by-vardaan11.herokuapp.com/" class="btn btn-success">Live</a>
+                        <a target= "_blank" href="https://github.com/vardaan11/faceoff" class="btn btn-success">Github</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <p> FaceOff is a Computer Vision Model that was built using OpenCV and deployed
+onto a Webpage using Streamlit and hosted via Heroku. As the name suggests, it
+does Facial Recognition and identifies people based on its own trained dataset. We start by creating a dataset of all the images. To do this, we import OpenCV
+library. Remember we use the OpenCV-contrib-python library as it contains all
+the main modules as well as the contributed/extra modules. OpenCV (OpenSource Computer Vision Library) is an open-source computer vision and
+machine learning software library.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-10">
+                            <ol>
+                                <li>Create training dataset of your own images.</li>
+                                <li>Create a python script that can perform face detection using the HCC
+algorithm.</li>
+                                <li>Train the model based on your training dataset.</li>
+                                <li>Finally, we create a webapp using Streamlit and host it on Heroku.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p>I used the Haar-Cascade Face Classifier to detect faces in the images
+supplied. Haar cascades, first introduced by Viola and Jones in their seminal
+2001 publication, Rapid Object Detection using a Boosted Cascade of Simple
+Features, are arguably OpenCV’s most popular object detection algorithm. The next step is to train the image dataset using the LBPH (Local Binary Pattern
+Histogram) face recognition algorithm. We finally use the Haar cascades to detect
+and then LBPH algorithm to recognize faces in the provided image with that to
+our stored data. If it matches, we get the name of the individual!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about sentiment section-->
+    <section id="sentiment">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Sentiment Analysis of Jane Austen Novel</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/portfoliosentiment2.png" class= "imageAboutPage" alt="sentiment_img">
+                    <div class="row-sm-4 mt-4 offset-4">
+                        <a target= "_blank" href="https://github.com/vardaan11/Sentiment-Analysis" class="btn btn-success">Github</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <p>Sentiment analysis provides a way to understand the attitudes and opinions
+expressed in texts. In this project, we explored how to approach sentiment
+analysis using tidy data principles; when text data is in a tidy data structure,
+sentiment analysis can be implemented as an inner join. We can use sentiment
+analysis to understand how a narrative arc changes throughout its course or what
+words with emotional and opinion content are important for a particular text.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-10">
+                            <ol>
+                                <li>Import lexicon libraries and novels.</li>
+                                <li>Prepare novel text in tidytext format and ready for analysis.</li>
+                                <li>Run an inner join between the sentiment lexicon (Bing here) and the text
+of the selected novel (Emma here).</li>
+                                <li>Now, we can plot the findings in different available ggplots like word-cloud,
+timeline, bar graphs etc.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p>One way to analyze the sentiment of a text is to consider the text as a combination
+of its individual words and the sentiment content of the whole text as the sum of
+the sentiment content of the individual words.The tidytext package provides access to several sentiment lexicons. Three
+general-purpose lexicons are Afinn, Bing and NRC. All three of these lexicons
+are based on unigrams, i.e., single words. Next, we count how many positive and negative words there are in defined
+sections of each book. Now we can plot these sentiment scores across the plot trajectory of
+any novel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about Drug section-->
+    <section id="drug">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Drug Data Analysis | TCS iON</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/portfoliotcs.png" class= "imageAboutPage" alt="drug_img">
+                    <div class="row-sm-4 mt-4 offset-5">
+                        <a target= "_blank" href="https://github.com/vardaan11/TCS-iON-RIO-125-Internship" class="btn btn-success">Github</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <p>The Purpose of this
+internship was to build a Classification Model. A Classification models are a
+subset of supervised machine learning. A classification model reads some input
+and generates an output that classifies the input into some category. Here we
+intend to use these tools to create a model that can categorize different side
+effects that can occur due to age, gender and race.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <ol>
+                                <li>Create a dataset. Here we use the WebMD dataset from Kaggle.</li>
+                                <li>Clean the dataset and sanitize it. Datasets usually contain raw and
+disoriented data and need to clean it and make it proper for better
+performance with our classification model.</li>
+                                <li>We pre-process the data according to our needs, so, we remove the outliers and missing values, and then use the dataset.</li>
+                                <li>We carry out exploratory data analysis.</li>
+                                <li>We Split the dataset into training and testing sets for the purpose of having different values when training our model and different values when testing it for real world.</li>
+                                <li>We use different algorithms to build our model so that we can gauge which
+one of the listed methods is best for creating our desired classification model.</li>
+                                <li>We have thus created our classification model and tested it too. Now we
+make the final analysis and the conclusion and our project is completed.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p>As an outcome, we have completed the importing of various libraries, cleaning and sanitizing of dataset, exploratory analysis of the dataset and further splitting of dataset into the training and testing sets. Then we created a simple classifier using logistic regression and trained it on our training set. Finally, we tested our model on the testing set and we got the accuracy of 69%.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/search?q=meerut&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <h5>Email: vardaan.vishnu2019@vitbhopal.ac.in</h5>
+                    <h5>Contact No: +91-8791624313</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.twitter.com/vdaan209" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/vardaan12" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+</body>
+</html>
