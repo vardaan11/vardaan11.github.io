@@ -6,5 +6,5 @@ Vardaan Vishnu 19BCE10063 Portfolio Website
 * [Font Awesome 5](https://fontawesome.com/)
 * [google map](https://www.embed-map.com/)
 
-This is the [live demo](vardaan11.github.io) of the project . 
+This is the [live demo](https://vardaan11.github.io/) of the project . 
 
